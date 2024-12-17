@@ -1,0 +1,6 @@
+a = int(input("please enter A"))
+b =  int(input("please enter b "))
+if a > 0 and b > 0:
+    print("the numbers are greater than 0")
+else:
+    print("the numbers are less than 0")
