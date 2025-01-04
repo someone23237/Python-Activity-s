@@ -1,8 +1,6 @@
-print("Enter a number (Numerator):")
-numn=int(input())
-print("Enter a number(denominator)")
-numd=int(input())
+numn=int(input("enter a number (numerator)"))
+numd=int(input("enter a number (denominator)"))
 if numn%numd==0:
-    print("/n " +str(numn)+" is divisible by "+ str(numd))
+     print( str(numn) + "is divisable by " + str(numd))
 else:
-    print("/n " +str(numn)+" is not divisible by "+ str(numd))
+     print( str(numn) + "is not divisable by " + str(numd))
